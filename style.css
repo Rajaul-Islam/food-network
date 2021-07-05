@@ -8,6 +8,8 @@ body{
     color: orange;
 }
 
+
+
 .buttom{
     text-decoration: none;
     color: white;
@@ -65,3 +67,29 @@ body{
 
 }
 
+
+li{
+    list-style-type:none;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+#rating{
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+
+#network-color{
+ color: gray;
+}
+
+#last-part{
+    border: 25px;
+    padding-bottom: 70px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
