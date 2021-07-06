@@ -4,13 +4,52 @@ body{
 
 }
 
+/* START NAVIGATION VAR*/
+
+ul
+{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: rgb(231, 102, 63);
+
+
+}
+li{
+    float: left;
+
+    
+}
+li a{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 20px;
+}
+.active{
+    background-color: rgba(107, 195, 35, 0.65);
+}
+li a:hover:not(.active){
+    background-color: rgba(88, 224, 194, 0.767);
+}
+
+/* END NAVIGATION VAR*/
+
+
+
+/* HEADER FONT COLOR */
 .orange-color{
     color: orange;
 }
 
 
 
-.buttom{
+/* Order food, Contact Me button*/
+.button{
     text-decoration: none;
     color: white;
     padding:10px 20px ;
@@ -20,11 +59,14 @@ body{
     
 }
 
+
+/* Start first part and second part*/
 .flexible{
     display: flex;
     margin-bottom: 100px;
     
 }
+
 
 .half-width{
      width: 50%;
@@ -39,8 +81,11 @@ body{
     background-repeat: no-repeat;
     
 }
+/* END first part and second part*/
 
 
+
+/* START Recipies part with 3 picture */
 .recipies{
     text-align: center;
 }
@@ -66,9 +111,11 @@ body{
     text-align: center;
 
 }
+/* End  START Recipies part with 3 picture*/
 
 
-li{
+/*start  YOu tube instagram followes*/
+#rating li{
     list-style-type:none;
     margin-left: 10%;
     margin-right: 10%;
@@ -76,12 +123,16 @@ li{
     
 }
 #rating{
+    padding: 20px;
     margin-left: 100px;
     margin-right: 100px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 20px;
 }
+/*end  YOu tube instagram followes*/
 
+
+/*start  last paart*/
 #network-color{
  color: gray;
 }
@@ -92,4 +143,6 @@ li{
     background-color: black;
     text-align: center;
     color: white;
+    padding-top: 40px;
 }
+/*End  last paart*/
