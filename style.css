@@ -146,3 +146,17 @@ li a:hover:not(.active){
     padding-top: 40px;
 }
 /*End  last paart*/
+
+
+
+
+.area{
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px black;
+    margin-bottom: 2%;
+
+}
+.contact-area{
+    color: rgb(240, 158, 27);
+}
